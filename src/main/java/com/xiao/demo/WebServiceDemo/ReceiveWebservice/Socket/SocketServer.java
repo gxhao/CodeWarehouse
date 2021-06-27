@@ -1,4 +1,4 @@
-package com.xiao.demo.WebServiceDemo.Socket;
+package com.xiao.demo.WebServiceDemo.ReceiveWebservice.Socket;
 
 import java.io.InputStream;
 import java.io.OutputStream;
