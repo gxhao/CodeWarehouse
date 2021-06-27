@@ -28,6 +28,7 @@ public class SocketClient {
         is.close();
         os.close();
         sc.close();
+        input.close();
     }
 
 }
