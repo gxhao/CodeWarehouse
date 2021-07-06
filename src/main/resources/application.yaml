@@ -1,0 +1,9 @@
+# 自动装载属性
+#person:
+#  name: 杨过
+#  age: 13
+
+# 多环境配置
+spring:
+  profiles:
+    active: dev 
