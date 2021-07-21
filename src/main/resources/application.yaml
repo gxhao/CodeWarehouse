@@ -6,7 +6,7 @@
 # 多环境配置
 spring:
   profiles:
-    active: dev
+    active:
 # 数据源配置
   datasource:
     username: root
@@ -37,8 +37,20 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
 
 
-#作者名称
-author:
-  name: Yang
-
 debug: false
+
+#Person
+name: xiao
+#UserBean
+user:
+  author: yangGuo
+  age: 23
+#myserviceProperties
+yang:
+  service:
+    name: yangGuo
+    age: 23
+org
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.xicent.starter.config.MyServiceAutoConfiguration
+

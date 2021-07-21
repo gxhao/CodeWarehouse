@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 @NoArgsConstructor
 @Component
 //@ConfigurationProperties(prefix = "person")
-@PropertySource(value = "classpath:yang.properties")
+@PropertySource(value = "classpath:application.yaml")
 public class Person {
     // el表达式
     @Value("${name}")

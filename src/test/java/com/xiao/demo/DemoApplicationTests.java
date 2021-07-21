@@ -23,8 +23,8 @@ class DemoApplicationTests {
 
     @Test
     void contextLoads() throws SQLException {
-        /*System.out.println("dog = " + dog);
-        System.out.println("person = " + person);*/
+        System.out.println("dog = " + dog);
+        System.out.println("person = " + person);
         //看一下默认数据源
         System.out.println(dataSource.getClass());
         //获得连接
