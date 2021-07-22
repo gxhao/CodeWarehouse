@@ -46,8 +46,4 @@ user:
   author: yangGuo
   age: 23
 #myserviceProperties
-yang:
-  service:
-    name: yangGuo
-    age: 23
 
