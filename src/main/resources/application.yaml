@@ -50,7 +50,4 @@ yang:
   service:
     name: yangGuo
     age: 23
-org
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.xicent.starter.config.MyServiceAutoConfiguration
 
