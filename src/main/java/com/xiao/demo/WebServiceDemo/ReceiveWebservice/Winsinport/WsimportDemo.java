@@ -1,7 +1,5 @@
 package com.xiao.demo.WebServiceDemo.ReceiveWebservice.Winsinport;
 
-import com.xiao.demo.WebServiceDemo.ReceiveWebservice.Winsinport.proxy.MobileCodeWS;
-import com.xiao.demo.WebServiceDemo.ReceiveWebservice.Winsinport.proxy.MobileCodeWSSoap;
 
 /**
  * @Author gxhao
@@ -18,9 +16,9 @@ public class WsimportDemo {
     //-          s  ：表示要解析java的源码 ，默认解析出的是class字节码
     //-          p  ： 指定输出的包名
     public static void main(String[] args) {
-        MobileCodeWS webservice4SZJS = new MobileCodeWS();
+        /*MobileCodeWS webservice4SZJS = new MobileCodeWS();
         MobileCodeWSSoap webservice4SZJSSoap = webservice4SZJS.getMobileCodeWSSoap();
         String todayCDInfo = webservice4SZJSSoap.getMobileCodeInfo("13255446655", "");
-        System.out.println(todayCDInfo);
+        System.out.println(todayCDInfo);*/
     }
 }
