@@ -10,7 +10,7 @@ spring:
 # 数据源配置
   datasource:
     username: root
-    password: root
+    password: 123456
     url: jdbc:mysql://10.127.17.145:3306/sp-dev?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource # 自定义数据源
