@@ -10,4 +10,12 @@ public class HelloController {
         System.out.println("进入系统");
         return "hello,ci/cd test success!!";
     }
+
+    @RequestMapping("/")
+    public String index(){
+        return "index";
+    }
 }
+
+
+
