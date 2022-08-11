@@ -8,7 +8,7 @@ public class HelloController {
     @RequestMapping("test")
     public String test(){
         System.out.println("进入系统");
-        return "hello,ci/cd test success!!";
+        return "今天很开心能够分享DevOps的一些知识!!";
     }
 
     @RequestMapping("/")
