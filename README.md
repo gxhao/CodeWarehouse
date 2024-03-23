@@ -1,5 +1,11 @@
 # CodeWarehouse
 主要是一些平常工作写的Java代码
+token:glpat-ffxFT5mFdAAEoEizx3-Q
+
+## 20240323
+- 异步调用实现
+- web打包实现
+- 动态代理实现
 
 ## 20210627
 -  webservice的多种调用和发布
