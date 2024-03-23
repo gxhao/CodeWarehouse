@@ -8,7 +8,7 @@ ENV DIR_WEBAPP /usr/local/tomcat/webapps/
 #删除webapp下所有文件，因为当前应用作为根应用
 RUN  rm -rf $DIR_WEBAPP/*
 #添加本地的war包到远程容器中
-ADD ./target/code.war $DIR_WEBAPP/code.war
+ADD ./target/code_war.war $DIR_WEBAPP/code.war
 #配置文件夹映射
 VOLUME /usr/local/tomcat/webapps
 #配置工作目录
@@ -16,7 +16,7 @@ WORKDIR /usr/local/tomcat/webapps
 #解压war包到ROOT目录
 RUN unzip $DIR_WEBAPP/code.war -d $DIR_WEBAPP/code/
 #暴露端口
-EXPOSE 6375
+EXPOSE 8088
 #启动tomcat
 CMD ["catalina.sh", "run"]
 
