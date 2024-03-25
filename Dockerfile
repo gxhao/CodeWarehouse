@@ -16,7 +16,7 @@ WORKDIR /usr/local/tomcat/webapps
 #解压war包到ROOT目录
 RUN unzip $DIR_WEBAPP/code.war -d $DIR_WEBAPP/code/
 #暴露端口
-EXPOSE 8088
+EXPOSE 8080
 #启动tomcat
 CMD ["catalina.sh", "run"]
 
